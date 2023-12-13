@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -23,37 +25,27 @@ import java.util.ArrayList;
 
 public class AgregarDeporte extends AppCompatActivity {
     private EditText editTextNombreDeporte, editTextComentario;
-
-
     private Button btnAgregar;
     private ListView listViewComentarios;
-
-
     private ArrayList<Comentario> listaComentarios;
+    private ArrayAdapter<Comentario> adapter;
     private DatabaseReference databaseReference;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agregar_deporte);
 
-
         editTextNombreDeporte = findViewById(R.id.editTextNombreDeporte);
         editTextComentario = findViewById(R.id.editTextComentario);
         btnAgregar = findViewById(R.id.btnAgregar);
         listViewComentarios = findViewById(R.id.listViewComentarios);
 
+        listaComentarios = new ArrayList<>();
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listaComentarios);
+        listViewComentarios.setAdapter(adapter);
 
         databaseReference = FirebaseDatabase.getInstance().getReference("comentarios");
-        listaComentarios = new ArrayList<>();
-
-        btnAgregar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                agregarComentario();
-            }
-        });
 
         // Configurar el listener para actualizar la lista cuando cambian los datos en Firebase
         databaseReference.addValueEventListener(new ValueEventListener() {
@@ -65,13 +57,20 @@ public class AgregarDeporte extends AppCompatActivity {
                     listaComentarios.add(comentario);
                 }
 
-                // Actualizar el adaptador del ListView
-                // adapter.notifyDataSetChanged();
+                // Notificar al adaptador sobre los cambios en los datos
+                adapter.notifyDataSetChanged();
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
                 // Manejar errores
+            }
+        });
+
+        btnAgregar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                agregarComentario();
             }
         });
     }
