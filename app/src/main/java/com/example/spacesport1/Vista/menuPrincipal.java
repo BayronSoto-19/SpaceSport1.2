@@ -11,7 +11,7 @@ import com.example.spacesport1.R;
 
 public class menuPrincipal extends AppCompatActivity {
 
-    Button boton2, boton3;
+    Button boton2, boton3, boton4;
 
 
     @Override
@@ -39,6 +39,14 @@ public class menuPrincipal extends AppCompatActivity {
             }
         });
 
+        boton4 = findViewById(R.id.agregarDeporte);
+        boton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), AgregarDeporte.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
