@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47133345684",
+    "project_id": "spacesport1",
+    "storage_bucket": "spacesport1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47133345684:android:871929c7e5938ad7e8f181",
+        "android_client_info": {
+          "package_name": "com.example.spacesport1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvyxOTFcTsceSDeQAfHjnxIQPtcjlyK7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

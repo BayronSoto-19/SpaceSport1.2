@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.golpesTaekwondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipos de golpes"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Información sobre patada frontal -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patada frontal (Ap chagui)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de la patada frontal -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La patada frontal a veces se conoce como la «patada rápida’’. Se realiza levantando la rodilla de la pierna que patea hacia la cintura y luego ejerciendo fuerza con el pie hacia adelante, directamente hacia el objetivo.
+
+Este movimiento está diseñado para empujar al oponente hacia atrás, así como para lesionar a este. La barbilla, la ingle o el plexo solar son las principales zonas de impacto de la patada frontal."
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:layout_width="366dp"
+                android:layout_height="202dp"
+                android:src="@drawable/apchagui" />
+
+            <!-- Información sobre patada lateral -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patada lateral (Yop chagui)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de la patada lateral -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se realiza levantando la rodilla mientras gira su cuerpo 90 grados, y luego ejerce fuerza al extender la pierna. Al utilizar el impulso de su cintura y torso, puede conectar más fuerte al objetivo."
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:layout_width="366dp"
+                android:layout_height="202dp"
+                android:src="@drawable/yopchagui" />
+
+
+            <!-- Información sobre patada hacia atrás -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patada hacia atrás (Dwi Chagi)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de la patada hacia atrás -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es una de las más fuertes patadas de taekwondo. Se golpea usando la pierna trasera en esta patada, mientras se gira 180 grados para ganar potencia y velocidad. Usas el talón de tu pie y generalmente lanzas la patada al plexo solar del oponente."
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:layout_width="366dp"
+                android:layout_height="202dp"
+                android:src="@drawable/dwichagui" />
+
+            <!-- Información sobre patada lateral inversa -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patada lateral inversa («BANDAE YOP CHAGUI»)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de la patada lateral inversa -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El practicante gira más lejos de lo que lo haría con la patada hacia atrás. Esta patada también requiere de una práctica exigente para mantenerse completamente equilibrado durante la maniobra."
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Información sobre patada de hacha/giratoria -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patada de hacha/giratoria (Huryeo Chagui)"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de la patada de hacha/giratoria -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aquí el pie desciende con el mismo movimiento en que se balancea un hacha. Utiliza el talón para pegar a la altura de la clavícula al oponente o en la parte superior, a la altura de la cabeza. Se puede lanzar circulando hacia adentro, hacia afuera, arriba y abajo."
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:layout_width="366dp"
+                android:layout_height="202dp"
+                android:src="@drawable/nerio" />
+
+            <!-- Información sobre movimientos básicos en taekwondo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movimientos básicos en taekwondo"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de golpe recto -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Golpe recto: El puño se desenfunda desde la cadera y luego se empuja hacia adelante. El efecto se hace con los dos grandes nudillos."
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="366dp"
+                android:layout_height="202dp"
+                android:src="@drawable/golperecto" />
+
+            <!-- Descripción de bloqueo bajo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bloqueo bajo: Este es el primer bloqueo que aprendes en Taekwondo. Coloque el puño sobre el hombro opuesto, luego debes deslizarlo hacia abajo frente a la pelvis, deteniéndose o simplemente golpee la pierna del mismo lado del brazo de bloqueo"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <ImageView
+                android:layout_width="366dp"
+                android:layout_height="202dp"
+                android:src="@drawable/are" />
+            <!-- Descripción de golpe de mano con cuchillo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Golpe de mano con cuchillo: Se tiende a golpear hacia abajo, con la palma o, por otro lado, a pegar hacia adentro, con la palma hacia arriba. Normalmente, se enfoca en golpear la tráquea o el costado del cuello. "
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de bloqueo facial -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bloqueo facial: Se levanta el brazo hacia arriba y apunta, deteniendo simplemente sobre tu frente..."
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de patada redonda -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patada redonda: Se levanta el brazo hacia arriba y apunta, deteniendo simplemente sobre tu frente. Esto evita golpes y asegura tu cabeza. También es útil para la defensa de armas."
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Descripción de doble bloqueo del antebrazo -->
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

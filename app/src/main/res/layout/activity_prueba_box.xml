@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Resultado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.prueba_box">
+
+    <ScrollView
+        android:layout_width="415dp"
+        android:layout_height="722dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Coloquemos a prueba tus conocimientos"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Cuales son los boxeadores antiguos?" />
+
+                <CheckBox
+                    android:id="@+id/BoxMohamed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mohamed Ali" />
+
+                <CheckBox
+                    android:id="@+id/BoxKenNorton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ken norton" />
+
+                <CheckBox
+                    android:id="@+id/BoxRoky"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="roky balboa" />
+
+                <CheckBox
+                    android:id="@+id/BoxJoeFrazier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="joe frazier" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="404dp"
+                android:layout_height="221dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Cuántos asaltos tiene una pelea de boxeo profesional?" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8" />
+
+                    <RadioButton
+                        android:id="@+id/rb10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10" />
+
+                    <RadioButton
+                        android:id="@+id/rb6"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:text="6" />
+
+                    <RadioButton
+                        android:id="@+id/respuesta1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="¿Cuál es el límite de peso para la categoría de peso pesado en el boxeo?" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb175L"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="175 libras" />
+
+                    <RadioButton
+                        android:id="@+id/respuesta2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="200 libras" />
+
+                    <RadioButton
+                        android:id="@+id/rb220L"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="220 libras" />
+
+                    <RadioButton
+                        android:id="@+id/rbNoLimete"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No hay límite de peso" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Cómo se llama el golpe ilegal en el boxeo que implica golpear a un oponente en la parte posterior de la cabeza?" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rdHook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hook" />
+
+                    <RadioButton
+                        android:id="@+id/rdUppercut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uppercut" />
+
+                    <RadioButton
+                        android:id="@+id/respuesta3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rabbit punch" />
+
+                    <RadioButton
+                        android:id="@+id/rdCross"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cross" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnResultado"
+                android:layout_width="465dp"
+                android:layout_height="wrap_content"
+                android:text="Resultado" />
+
+            <Button
+                android:id="@+id/btnFinish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finalizar" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="379dp"
+                android:layout_height="49dp"
+                android:text="Puntuación: 0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.boxeadoresHistoricos">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boxeadores de la Historia"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="A lo largo de la historia del boxeo, ha habido numerosos boxeadores que han dejado una huella imborrable en el deporte y han sido reconocidos como figuras legendarias. Aquí hay una lista de algunos de los boxeadores que marcaron la historia del boxeo" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muhammad Ali:"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <ImageView
+                android:layout_width="353dp"
+                android:layout_height="271dp"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:src="@drawable/muhamedali" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="Muhammad Ali, anteriormente conocido como Cassius Clay, fue un legendario boxeador y figura icónica en la historia del deporte. Ganó el título de peso pesado en 1964, se convirtió al islam y cambió su nombre. Se negó a ser reclutado para la Guerra de Vietnam debido a sus creencias religiosas, lo que resultó en una suspensión. Regresó al boxeo y participó en peleas épicas, incluyendo la famosa &quot;Rumble in the Jungle&quot; en 1974 contra George Foreman. Tuvo una rivalidad intensa con Joe Frazier y se retiró en 1981. Más allá del boxeo, fue un defensor de los derechos civiles y falleció en 2016 a causa de la enfermedad de Parkinson. Su lema &quot;Flotar como una mariposa, picar como una abeja&quot; sigue siendo famoso. Ali dejó un legado duradero como una de las figuras más influyentes en el deporte y en la lucha por los derechos civiles." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="Leon Spinks"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="353dp"
+                android:layout_height="271dp"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:src="@drawable/leonspinks" />
+
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text=" León Spinks fue un boxeador profesional estadounidense nacido el 11 de julio de 1953 en St. Louis, Missouri, y fallecido el 5 de febrero de 2021 en Henderson, Nevada. Es conocido principalmente por su sorprendente victoria sobre Muhammad Ali en una pelea de boxeo que tuvo lugar el 15 de febrero de 1978. En esa pelea, Spinks derrotó a Ali por decisión dividida y se convirtió en el campeón mundial de peso pesado.  La victoria de León Spinks sobre Ali fue una de las mayores sorpresas en la historia del boxeo, ya que Ali era considerado uno de los boxeadores más grandes de todos los tiempos en ese momento. Sin embargo, Spinks, un boxeador relativamente joven y menos experimentado, logró superar a Ali en una emocionante pelea.  Sin embargo, Spinks no pudo mantener el título de peso pesado por mucho tiempo y perdió una revancha ante Ali en septiembre de 1978. A lo largo de su carrera, Spinks luchó en varias categorías de peso, pero nunca alcanzó el mismo nivel de éxito que tuvo en su histórica pelea contra Ali." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="Sonny Liston"
+                android:textAlignment="center" />
+            <ImageView
+                android:layout_width="353dp"
+                android:layout_height="271dp"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:src="@drawable/sonyliston" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="Sonny Liston fue una figura controvertida en el mundo del boxeo, conocido tanto por su destreza en el cuadrilátero como por sus problemas personales y su relación con el crimen organizado. Su legado está marcado por su papel en las peleas contra Muhammad Ali y su influencia en la historia del boxeo." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="Joe Frazier"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="353dp"
+                android:layout_height="271dp"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:src="@drawable/joefrazier" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="16dp"
+                android:text="Joe Frazier, cuyo nombre completo era Joseph William Frazier, fue un renombrado boxeador estadounidense que dejó una huella imborrable en la historia del deporte. Nacido el 12 de enero de 1944 en Beaufort, Carolina del Sur, y fallecido el 7 de noviembre de 2011 en Filadelfia, Pensilvania, Frazier se destacó como uno de los pesos pesados más formidables y valientes de todos los tiempos.  La carrera de Joe Frazier se caracterizó por su determinación, coraje y un estilo de lucha implacable. Frazier se ganó el apodo de &quot;Smokin' Joe&quot; debido a su intensidad en el cuadrilátero. A lo largo de su carrera profesional, que abarcó desde la década de 1960 hasta mediados de la década de 1970, Frazier demostró ser un rival formidable para cualquier oponente que enfrentara.  Sin embargo, lo que catapultó a Joe Frazier a la inmortalidad del boxeo fue su legendaria rivalidad con Muhammad Ali. Frazier y Ali se enfrentaron en tres combates memorables, siendo el primero de ellos, conocido como &quot;The Fight of the Century&quot;, en 1971, uno de los eventos deportivos más anticipados y vistos en la historia del boxeo. Frazier ganó esa pelea por decisión y se convirtió en campeón de peso pesado."
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

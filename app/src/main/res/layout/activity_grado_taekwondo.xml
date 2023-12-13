@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.gradoTaekwondo">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los colores de los cinturones en el taekwondo y su significado"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <!-- Inserta más TextViews u otros elementos según sea necesario -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En el taekwondo, los colores de los cinturones señalan los niveles o grados de instrucción. A su vez, estos niveles se dividen en grados KUP (o GUP, según el país), que son los más básicos (los de los principiantes e iniciados) y grados DAN (los de los grandes maestros). Los cinturones de colores -del blanco al rojo de punta negra- marcan los grados KUP, mientras que los grados DAN se identifican con los distintos niveles de cinturón negro."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CINTURONES DE COLORES"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"/>
+
+            <!-- Añade información sobre los cinturones de colores -->
+
+            <!-- Repite este patrón para los demás cinturones de colores -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="522dp"
+                android:src="@drawable/cinturones" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CINTURONES NEGROS"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"/>
+
+            <!-- Añade información sobre los cinturones negros -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1º dan (Jo-Kyo-Nim, instructor)"/>
+
+            <!-- Repite este patrón para los demás cinturones negros -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El 9º Dan es el grado más alto al que puede llegar un practicante de taekwondo mediante exámenes y entrenamiento. El cinturón negro de gran maestro supremo es honorífico y se suele otorgar post mortem por los grandes aportes a este popular arte marcial que hoy tiene muchísimos adeptos no sólo en Corea del Sur, su sitio de origen, sino también en Estados Unidos, Japón, Alemania, Reino Unido y España, entre otros países donde no ha parado de crecer."
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/negro"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entre los grandes maestros supremos se destacan Choi Hong Hi (1918-2002), el creador y gran impulsor del taekwondo, un militar la 29º división de Infantería coreana que logró que la enseñanza del arte marcial fuera obligatoria en las fuerzas policiales y militares de su país; Moo Yong Lee (1938-2016), pionero en la difusión del taekwondo en Estados Unidos que fundó la Unión de Instructores de Taekwondo de ese país; y Sell Edward B (1942-2014), el primer y único 10º Dan no nacido en Corea, fundador de la asociación de Chung Do Kwan (uno de los ocho estilos tradicionales que componen al taekwondo) de Estados Unidos y profesional de la fuerza aérea norteamericana."
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

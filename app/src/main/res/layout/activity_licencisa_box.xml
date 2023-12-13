@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.licencisaBox">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencias del Boxeo"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El boxeo es un deporte regulado por distintas organizaciones y federaciones a nivel mundial, y los boxeadores, entrenadores, promotores y árbitros deben obtener licencias y cumplir con ciertos requisitos para participar en el deporte de manera oficial. A continuación, se mencionan algunas de las licencias y permisos comunes relacionados con el boxeo:"
+                android:textAlignment="viewStart"
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+            <ImageView
+                android:layout_width="368dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="6dp"
+                android:src="@drawable/licencia" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencia de Boxeador: Los boxeadores deben obtener una licencia para competir oficialmente en combates de boxeo. Para obtenerla, a menudo deben someterse a exámenes médicos, pruebas de aptitud física y cumplir con requisitos de edad mínima."
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencia de Entrenador: Los entrenadores que trabajan con boxeadores también pueden necesitar una licencia. Esto a menudo implica completar cursos de formación y estar certificado por una organización de boxeo reconocida."
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencia de Comisión de Boxeo: En muchos lugares, las comisiones de boxeo son las autoridades encargadas de regular el deporte y emitir licencias. Estas comisiones establecen las reglas, regulaciones y requisitos para el boxeo en su jurisdicción."
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

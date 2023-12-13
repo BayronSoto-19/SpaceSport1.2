@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.historiaBoxeo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Historia del boxeo"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="6dp"
+                android:text=' El boxeo es un deporte de combate que ha existido en diversas formas en diferentes culturas a lo largo de la historia. No se puede atribuir su origen a una única ubicación o cultura específica, ya que diferentes civilizaciones han practicado formas de boxeo a lo largo del tiempo.  Algunos de los primeros registros históricos del boxeo se remontan a la antigua Mesopotamia, Egipto y Grecia. Los griegos antiguos tenían un deporte llamado "pygmachia" que se asemejaba al boxeo, y se incluyó en los Juegos Olímpicos antiguos.' />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="316dp"
+                android:layout_margin="20dp"
+                android:padding="6dp"
+                android:src="@drawable/antiguobox" />
+
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sin embargo, el boxeo moderno, tal como lo conocemos hoy en día, se desarrolló principalmente en Inglaterra en el siglo XVIII y XIX. El boxeo bajo reglas específicas y con guantes se convirtió en un deporte organizado y popular en Inglaterra, y a partir de allí se extendió a otras partes del mundo.  En cuanto a la cultura del boxeo, cada país y región tiene su propia tradición y enfoque en el deporte. El boxeo ha desempeñado un papel importante en la cultura de muchos países, con campeones y figuras icónicas que se convierten en héroes nacionales. Además, el boxeo ha influido en la música, el cine y la literatura, y ha tenido un impacto significativo en la cultura popular."
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

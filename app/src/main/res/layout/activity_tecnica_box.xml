@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.tecnicaBox">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="739dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tecnicas de ataque y defensa "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipos de ataque"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="el ataque se refiere a la acción de lanzar golpes con el propósito de golpear al oponente y marcar puntos o, idealmente, derribarlo. Un ataque eficaz implica la combinación de diferentes tipos de golpes, como jabs, ganchos y uppercuts, para superar la guardia del oponente y encontrar aberturas para conectar golpes limpios."
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:src="@drawable/golpes"
+                />
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipos de defensa"
+                android:textAlignment="center"
+                android:layout_margin="20dp"
+                android:padding="6dp"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:padding="6dp"
+                android:text="Guardia alta:Es efectiva para proteger la cabeza y la parte superior del cuerpo del boxeador, pero puede dejar expuesta la parte central y baja del cuerpo. Los boxeadores suelen utilizar esta guardia como base y pueden cambiar a otras guardias o técnicas defensivas según la situación y el estilo de su oponente. También utilizan la guardia alta como punto de partida para lanzar golpes ofensivos, como el jab o el gancho, desde una posición defensiva sólida.     " />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:src="@drawable/defensa" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardia Philly Shell:  es una guardia efectiva para contrarrestar golpes directos y ganchos. Permite al boxeador defenderse mientras mantiene la capacidad de contraatacar. Sin embargo, requiere un alto nivel de habilidad y entrenamiento, ya que es una técnica avanzada que puede ser vulnerable a ciertos tipos de ataques si no se utiliza correctamente."
+                android:layout_margin="9dp"
+                android:padding="6dp"
+                />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardia Southpaw: es una posición en el boxeo en la que un boxeador coloca su pie derecho adelante y su mano izquierda en posición de liderazgo. Esto es lo opuesto a la posición ortodoxa, en la que el pie izquierdo está adelante y la mano derecha lidera."
+                android:layout_margin="9dp"
+                android:padding="6dp"/>
+
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="330dp"
+                android:layout_margin="9dp"
+                android:padding="6dp"
+                android:src="@drawable/southpaw" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
