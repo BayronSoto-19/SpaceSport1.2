@@ -53,8 +53,8 @@
 
     <Button
         android:id="@+id/historiatae"
-        android:layout_width="117dp"
-        android:layout_height="52dp"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
         android:layout_marginBottom="196dp"
         android:text="Historia y cultura "
         app:layout_constraintBottom_toTopOf="@+id/mapaTae"

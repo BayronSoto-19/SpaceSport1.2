@@ -6,4 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".Vista.historiaTaekwondo">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Qué es el taekwondo?"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Es un deporte de combate de lucha libre que utiliza las manos y los pies descalzos para repeler al oponente. Taekwondo significa ‘’forma de patear y golpear’’. Es un sistema completo de defensa y mejora personal. Todas sus actividades se basan en la actitud defensiva que se desarrolló originalmente para la protección contra los ataques enemigos. La particularidad de este combate marcial es el hecho de que no solo es un arte superior de defensa personal, sino también, de la mente."
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pinturauno"/>
+
+            <!-- Agregar más secciones según sea necesario -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿De dónde viene el taekwondo?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El nombre Taekwondo viene significando ‘’el camino del pie y el puño’’. «Tae» significa romper o atacar con el pie, «kwon» significa romper con el puño y «do» se traduce como el arte o la forma. Se origina en Corea del Sur, donde se encuentra actualmente el organismo rector mundial de taekwondo (WTF). La forma actual del taekwondo no se estableció sino hasta 1955. Sin embargo, tienes sus raíces en el combate marcial coreano que se remontan desde hace más de 2000 años atrás."
+                android:layout_marginTop="8dp"/>
+
+            <!-- Agregar más secciones según sea necesario -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="724dp"
+                android:src="@drawable/printurados" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El Taekwondo es un Deporte marcial que fue desarrollado en Corea hace más de 20 siglos, y con los años se ha convertido en un deporte internacional popular."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Agregar más secciones según sea necesario -->
+
+            <!-- Puedes seguir este patrón para agregar todas las secciones -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

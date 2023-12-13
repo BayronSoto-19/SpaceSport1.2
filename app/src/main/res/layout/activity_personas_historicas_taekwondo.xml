@@ -1,9 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Vista.PersonasHistoricas_Taekwondo">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grandes Maestros y Figuras Clave en el Taekwondo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Choi Hong Hi (1918-2002): Fundador del taekwondo y figura clave en su desarrollo. Conocido como el 'Padre del Taekwondo'. General del ejército surcoreano."/>
+
+            <ImageView
+                android:layout_width="369dp"
+                android:layout_height="458dp"
+                android:src="@drawable/unochoi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Hwang Kee (1914-2002): Fundador del estilo Tang Soo Do. Influyente en el desarrollo del taekwondo y las artes marciales coreanas."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:src="@drawable/doskee" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Kim Un-yong (1931-2017): Figura clave en el desarrollo y reconocimiento internacional del taekwondo. Vicepresidente del COI."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="427dp"
+                android:src="@drawable/treskim" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Jhoon Rhee (1932-2018): 'Padre del Taekwondo en Estados Unidos'. Contribuyó a la introducción y popularización del taekwondo en América."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cuatrojhoon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Moo Yong Lee (1938-2016): Pionero en la difusión del taekwondo en Estados Unidos. Fundador de la Unión de Instructores de Taekwondo."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="459dp"
+                android:src="@drawable/cincomoo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Chung Do Kwan Founders (1940s): Fundadores de Chung Do Kwan, uno de los ocho estilos tradicionales que componen al taekwondo."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seischungdokan"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Park Jong-soo (Nacido en 1941): Gran maestro del taekwondo que ha contribuido a su expansión en Canadá."/>
+
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sietepark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. WTF/World Taekwondo: Creación de la World Taekwondo Federation (actualmente World Taekwondo) en 1973, contribuyendo a la estandarización y reconocimiento internacional del taekwondo."/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
